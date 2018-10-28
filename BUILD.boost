@@ -1335,6 +1335,7 @@ boost_library(
     name = "spirit",
     deps = [
         ":optional",
+        ":range",
         ":ref",
         ":utility",
     ],
