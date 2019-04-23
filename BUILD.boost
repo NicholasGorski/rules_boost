@@ -1867,3 +1867,12 @@ boost_library(
 boost_library(
     name = "lambda",
 )
+
+boost_library(
+    name = "yap",
+    deps = [
+        ":hana",
+        ":preprocessor",
+        ":type_traits",
+    ],
+)
